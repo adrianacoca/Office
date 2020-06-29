@@ -1,16 +1,38 @@
 # Office
 
-
-![alt text](Input/top-game-development-cities-world.png)
-
-**Priorities by order:**
-
-- Developers like to be near successful tech startups that have raised at least 1 Million dollars.
-- Designers like to go to design talks and share knowledge. There must be some nearby companies that also do design.
+**Project Aims:** Find a location for the offices of a new Gaming company in the best place for the company to grow. The place must cover all the following requirements:
+- Developers like to be near successful tech startups that have raised at least 1 Million dollars.   
+- Executives like Starbucks A LOT. Ensure there's a starbucks not to far.    
+- Account managers need to travel a lot. 
 - 30% of the company have at least 1 child.
-- Executives like Starbucks A LOT. Ensure there's a starbucks not to far.
-- Account managers need to travel a lot
-- All people in the company have between 25 and 40 years, give them some place to go to party.
-- The CEO is Vegan
-- If you want to make the maintenance guy happy, a basketball stadium must be around 10 Km.
-- The office dog "Pepe" needs a hairdresser every month. Ensure there's one not too far away.
+  
+### The City: 
+**Top Game Development Cities:**  
+58 - Tokyo  
+48 - London   
+46 - San Francisco  
+44 - Austin   
+40 - Montreal   
+34 - Los Angeles  
+32 - Seattle  
+29 - Vancouver  
+24 - Toronto  
+23 - Paris  
+22 - Seoul  
+20 - Kiev  
+19 - Brisbane  
+19 - Chicago  
+19 - Stockholm 
+  
+This project takes on an initial dataset of offices. Such dataset contains much more data for some countries than others.   
+Taking this into account, **California** was chosen as the location for the office because there was a lot of data available and it is one of the top game development cities
+  
+### The Requirements - Google API:   
+  
+Though the Google Places API, I was able to find the latitude a longitude of the different requirements. By using the *FindDistances* function, the distance of the closest one was found for each office in the dataset. 
+  
+### The  Final Decision:
+**PicApp: ( 37.794020, -122.403124)**
+
+![alt text](Output/officemap.png)
+ 
